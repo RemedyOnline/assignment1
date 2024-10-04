@@ -4,7 +4,7 @@ import companyLogo from "../assets/images/kantanka-logo.png";
 const Navbar = () => {
   return (
     <>
-      <header className="bg-none shadow bg-cover fixed w-full">
+      <header className="bg-none shadow fixed w-full">
         <div className="container mx-auto p-4 flex justify-between items-center">
           <div className=" flex items-center">
             <img src={companyLogo} alt="logo" />
