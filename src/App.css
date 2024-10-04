@@ -1,9 +1,9 @@
-body {
-  background-image: url('./assets/images/kantanka.jpg');
+.bg-cover {
+  background-image: url("./assets/images/kantanka.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.py-72 {
-  background-color: rgba(0, 0, 0, 0.4);
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
 }

@@ -1,16 +1,24 @@
+import "./App.css";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Models from "./components/Models";
+import Contact from "./components/Contact";
 
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero/>
+      <Hero />
+      <Models />
+      <About />
+      <Contact />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
